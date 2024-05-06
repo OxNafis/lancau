@@ -1,0 +1,153 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffefff;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.menu {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Ensures everything in the menu is centered */
+}
+
+.menu h1 {
+    color: #f50057;
+    margin-bottom: 20px;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu li {
+    background-color: white;
+    border: 2px solid #f50057;
+    border-radius: 10px;
+    margin: 10px;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #f50057;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.homepage-logo {
+    width: 250px; /* Adjust size accordingly */
+    margin-bottom: 20px; /* Space between logo and title */
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    margin-bottom:20px;
+}
+
+#question {
+    font-size: 35px; /* Larger font size for question */
+    font-weight: bold; /* Bold font weight for emphasis */
+    text-align: center;
+    margin: 20px 0;
+    padding: 0 10px; /* Padding for text wrap */
+}
+
+.logo {
+    width: 80px; /* Logo size under question */
+    margin-top: 20px;
+}
+
+.indicator {
+    display: flex;
+    margin: 10px 0;
+}
+
+.dot {
+    height: 10px;
+    width: 10px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.dot.active {
+    background-color: #f50057;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 350px;
+}
+
+.button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #f50057;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: #c51162;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 350px;
+    margin-top: 10px; /* Adds space above the button controls */
+}
+
+.button, .home {
+    padding: 10px 20px;
+    border: none;
+    background-color: #f50057;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.button:hover, .home:hover {
+    background-color: #c51162;
+}
+
+.home {
+    background-color: #4CAF50; /* Different color for home button to stand out */
+}
+
+.home:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
