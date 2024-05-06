@@ -1,5 +1,5 @@
 let questions = {
-    Membawang: ["Who’s the most bojio out of all of you and why?", "Who’s the most likely to have their first date a mamak?", "Who do you think out of your group, would make a good couple?", "Who’s the most likely to become a politican?", "Who out of all of your friends, would you date?" ],
+    Membawang: ["Who’s the most bojio out of all of you and why?", "Who’s the most likely to have their first date at a mamak?", "Who do you think out of your group, would make a good couple?", "Who’s the most likely to become a politican?", "Who out of all of your friends, would you date?" ],
     Bukak_Cerita: ["Who do you regret sleeping with and why?", "What’s the biggest secret you can share with the group but not everyone else?", "Who in this group would you sell for a nasi lemak", "Which Malaysian celebrity have you fantasised about? Deets.", "Tell the group, your weirdest fetish"],
     Babi_Tak_Salah: ["Whats your most 'babi' trait", "When was the moment you went 'babilah'", "Who in your life, did you call 'babi' the most", "Who in your group, deserves the 'Babi of The Year Award'", "When was a time where you called a family member 'Babi'" ]
 };
